@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/form-style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Formulário de Cadastro de Produtos</title>
+</head>
+<body>
+    <main>
+        <form action="update.php" method="POST">
+            <h2>Atualizar Produtos</h2> <br> <br>
+            <label>Nome Novo do Produto: </label> <input type="text" name="produto_nome" size="15"> <br>
+            <label>Preço Novo: </label> <input type="text" name="produto_preco" size="15"> <br>
+            <label>Data de Validade: </label> <input type="date" name="produto_data"> <br> <br>
+            <button>Atualizar Produto</button>
+        </form>
+    </main>
+</body>
+</html>
