@@ -6,7 +6,8 @@ CREATE TABLE produtos (
     cod INT PRIMARY KEY,
     nome_produto VARCHAR(50),
     preco DECIMAL (5,2),
-    data DATE
+    data DATE,
+    foto VARCHAR(100)
 );
 
 INSERT INTO produtos VALUES 
