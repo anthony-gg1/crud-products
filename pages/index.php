@@ -61,5 +61,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         ?>
         <br> <br>
         <a href="../pages/form.html">Adicionar Produto a Tabela</a>
+        <a href="../pages/pesquisa_prod.php">Pesquisar Produtos</a>
     </body>
 </html>
